@@ -1,0 +1,22 @@
+{
+  "name": "Myt üye Bot",
+  "logo":"https://telegra.ph/file/133b9125da464d1db6fca.jpg",
+  "description": "Myt Tagger ÜCRETSİZ ŞEKILDE GRUBUNUZDA ÜYELERI ETIKETLEYE BILIR.",
+  "env": {
+    "TOKEN": {
+      "description": "@botfather Vasitesi ile Ala Bilersen(Gerekli)",
+      "value": "5104889810:AAGbWzgzD9pPt7XqjHhAJbwahA99ASX6a4I"
+    },
+    "APP_ID": {
+      "description": " my.telegram.org vasitesi ile ala bilersen (Gerekli)",
+      "value": "11044555"
+    },
+    "API_HASH": {
+      "description": "my.telegram.org Vasitesi ile ala bilersen (Gerekli)",
+      "value": "f43cdf13b9fec8e3da3c3a50397bad68"
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
